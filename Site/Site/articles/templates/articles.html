@@ -1,0 +1,32 @@
+{%extends "base.html"%}
+
+
+{% block title3 %}My Cool Website{% endblock %}
+{% block sidebar %}
+
+<ul>
+
+<li><a href='/articles/all/'>Article</a></li>
+<li><a href='/admin/'>Admin</a></li>
+<li> <a href='/articles/create'>Create</a></li>
+
+</ul>
+
+{% endblock %}
+
+{%block content1%}
+				{% if articles.count > 0 %}
+                {% for article in articles %}
+                <h2>Language is::{{language}}</h2>
+                <h2>session_language::{{session_lang}}</h2>
+				<div>
+				<h2><a href ="/articles/get/{{article.id}}">{{article.title}}</a></h2>
+				<p>{{article.body}}</p>
+				<p>{{article.likes}}People who liked the article</p>
+				</div>
+
+				{% endfor %}
+				{% else %}
+				<p>None to show<p>
+				{% endif %}p>
+{%endblock%}

@@ -1,0 +1,32 @@
+[
+{
+    "model": "articles.articles",
+    "pk": 7,
+    "fields": {
+        "title": "Amazon",
+        "body": "Amazon.com (/\u02c8\u00e6m\u0259z\u0252n/ or /\u02c8\u00e6m\u0259z\u0259n/), also called Amazon, is an American electronic commerce and cloud computing company that was founded on July 5, 1994, by Jeff Bezos and is based in Seattle, Washington. It is the largest Internet-based retailer in the world by total sales and market capitalization.[15] Amazon.com started as an online bookstore, later diversifying to sell DVDs, Blu-rays, CDs, video downloads/streaming, MP3 downloads/streaming, audiobook downloads/streaming, software, video games, electronics, apparel, furniture, food, toys, and jewelry. The company also produces consumer electronics\u2014notably, Kindle e-readers, Fire tablets, Fire TV, and Echo\u2014and is the world's largest provider of cloud infrastructure services (IaaS and PaaS).[16] Amazon also sells certain low-end products like USB cables under its in-house brand AmazonBasics.\r\n\r\nAmazon has separate retail websites for the United States, the United Kingdom, Ireland, France, Canada, Germany, Italy, Spain, Netherlands, Australia, Brazil, Japan, China, India, and Mexico. Amazon also offers international shipping to certain other countries for some of its products.[17] In 2016, Dutch, Polish, and Turkish language versions of the German Amazon website were launched.[18][19][20]",
+        "likes": 1,
+        "thumbnail": "0"
+    }
+},
+{
+    "model": "articles.articles",
+    "pk": 8,
+    "fields": {
+        "title": "Facebook",
+        "body": "Facebook is an American for-profit corporation and an online social media and social networking service based in Menlo Park, California. The Facebook website was launched on February 4, 2004, by Mark Zuckerberg, along with fellow Harvard College students and roommates, Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes.[6][7]\r\n\r\nThe founders had initially limited the website's membership to Harvard students; however, later they expanded it to higher education institutions in the Boston area, the Ivy League schools, and Stanford University. Facebook gradually added support for students at various other universities, and eventually to high school students as well. Since 2006, anyone age 13 and older has been allowed to become a registered user of Facebook, though variations exist in the minimum age requirement, depending on applicable local laws.[8] The Facebook name comes from the face book directories often given to United States university students",
+        "likes": 1,
+        "thumbnail": "0"
+    }
+},
+{
+    "model": "articles.articles",
+    "pk": 9,
+    "fields": {
+        "title": "Google",
+        "body": "Google is an American multinational technology company specializing in Internet-related services and products. These include online advertising technologies, search, cloud computing, software, and hardware. Google was founded in 1996 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University, in California. Together, they own about 14 percent of its shares, and control 56 percent of the stockholder voting power through supervoting stock. They incorporated Google as a privately held company on September 4, 1998. An initial public offering (IPO) took place on August 19, 2004, and Google moved to its new headquarters in Mountain View, California, nicknamed the Googleplex. In August 2015, Google announced plans to reorganize its various interests as a conglomerate called Alphabet Inc. Google, Alphabet's leading subsidiary, will continue to be the umbrella company for Alphabet's Internet interests. Upon completion of the restructure, Sundar Pichai became CEO of Google, replacing Larry Page, who became CEO of Alphabet.",
+        "likes": 6,
+        "thumbnail": "0"
+    }
+}
+]

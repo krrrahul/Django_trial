@@ -1,0 +1,27 @@
+{%extends "base.html"%}
+
+
+{% block title3 %}My Cool Website{% endblock %}
+{% block sidebar %}
+
+<ul>
+<li><a href='/articles/all/'>Article</a></li>
+<li><a href='/admin/'>Admin</a></li>
+<li> <a href='/articles/all'>Cancel</a></li>
+
+
+</ul>
+
+{% endblock %}
+
+{%block content1%}
+	<form action='/articles/create/' method='post' enctype="multipart/form-data">{% csrf_token %}
+	<!-- enctype="mutlipart/form-data" this to tell form that we going to handle
+	 multiple type of data.Basically we used here for uploading image -->
+	<ul>
+	{{form.as_ul}}<!-- it can render in many ways.it can used as as_p for paragraph or as_table as table -->
+	</ul>
+	
+	<input type='submit' name='submit' value='Create Article'>
+	</form>
+{%endblock%}

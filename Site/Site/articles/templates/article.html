@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{%extends "base.html"%}
+{%load staticfiles%}
+{% block sidebar %}
+
+<ul>
+
+<li><a href='/articles/all/'>Article</a></li>
+<li><a href='/admin/'>Admin</a></li>
+<li> <a href='/articles/create'>Create</a></li>
+
+</ul>
+{% endblock %} 
+{% block title3 %}{{article.title}}{% endblock %}
+{%block content1%}
+     <h1>{{article.title}}</h1>
+  <!-- <p>{{article.body|lower|truncatewords:"10"}}</p> just if you want to do the formatting of the text -->
+     <p>{{article.body}}</p>
+     {{article.thumbnail}}
+     {% if article.thumbnail%}
+     <!--  <img src="{% static 'personal/img/{{article.thumbnail}}' %}" width='200'> 
+     http://stackoverflow.com/questions/16655851/django-1-5-how-to-use-variables-inside-static-tag-->
+     <p><img src="/static/personal/img/{{article.thumbnail}}" width='200'/></p>
+     {% endif %}
+     
+     
+     <p>{{article.likes}}People who liked the article</p>
+     <p><a href='/articles/likes/{{article.id}}'>Like</a></p>
+{%endblock%}

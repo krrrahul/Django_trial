@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//Site/articles/migrations/0001_initial.py=utf-8
+encoding//Site/articles/migrations/0002_articles_likes.py=utf-8
+encoding//Site/articles/migrations/0003_comment.py=utf-8
